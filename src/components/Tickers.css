@@ -14,12 +14,19 @@ border-bottom: 2px solid black;
  margin-bottom: 40px;
 box-shadow: 1px 15px 25px -5px rgba(0, 0, 0, 0.3);
 list-style-type: none;
+height: 200px;
 }
 
 li p.cryptocurrency-name{
 font-size: 20px;
 font-weight: 700;
 
+
+}
+
+li h1{
+  font-size: 15px;
+  font-weight: 500;
 
 }
 
