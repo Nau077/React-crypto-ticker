@@ -126,6 +126,7 @@ background-color: rgb(190, 238, 127);
     color: #ffffff;
     cursor: pointer;
     width: 48%;
+    margin-bottom: 20px;
   }
   
   .confirm-btn:hover {
