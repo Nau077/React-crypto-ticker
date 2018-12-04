@@ -1,0 +1,138 @@
+.tickers{
+max-width: 900px;
+margin: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 40px;
+}
+
+ 
+ul li{
+border-bottom: 2px solid black;
+ width: 150px;
+ margin-bottom: 40px;
+box-shadow: 1px 15px 25px -5px rgba(0, 0, 0, 0.3);
+list-style-type: none;
+}
+
+li p.cryptocurrency-name{
+font-size: 20px;
+font-weight: 700;
+
+
+}
+
+p.info{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.cryptocurrencyBitcoin{
+background-color: rgb(174, 240, 240);
+}
+
+
+.cryptocurrencyLitecoin{
+background-color: rgb(143, 245, 174);
+}
+
+
+.cryptocurrencyXRP{
+background-color: rgb(190, 238, 127);
+
+}
+.cryptocurrencyEthereum{
+ background-color: rgb(204, 192, 247);
+
+ }
+
+.cryptocurrencyEOS{
+    background-color: rgb(193, 194, 248);
+   
+    }
+
+
+    /**** #.overlay ****/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    z-index: 10;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  /**** #.confirm-modal ****/
+  .confirm-modal {
+    max-width: 30rem;
+    width: 100%;
+    min-height: 25rem;
+    padding-top: 2rem;
+    background-color: #fff;
+    -webkit-animation: fadeInDown 1s ease;
+            animation: fadeInDown 1s ease;
+    -webkit-box-shadow: 0 0 7rem 0 #000;
+            box-shadow: 0 0 7rem 0 #000;
+  }
+  
+  /**** #.confirm-title ****/
+  .confirm-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: -10px;
+  }
+  
+  /**** #.confirm-buttons ****/
+  .confirm-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    max-width: 25rem;
+    width: 100%;
+    margin: auto;
+  }
+  
+  /**** #.confirm-btn ****/
+  .confirm-btn {
+    display: inline-block;
+    padding: 1rem;
+    border: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  .confirm-btn:hover {
+    -webkit-box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.6);
+  }
+  
+  /**** #.yes-btn ****/
+  .yes-btn {
+    background-color: #e74c3c;
+  }
+
+  img{
+      width: 50%;
+      height: 50%;
+      margin-bottom: 1rem;
+  }
