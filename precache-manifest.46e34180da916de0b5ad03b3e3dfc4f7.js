@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4b099fe073d8051fca7c",
-    "url": "/React-crypto-ticker/static/css/main.2cdb8620.chunk.css"
+    "revision": "f1404f2d5f73b9597a93",
+    "url": "/React-crypto-ticker/static/css/main.af331047.chunk.css"
   },
   {
-    "revision": "4b099fe073d8051fca7c",
-    "url": "/React-crypto-ticker/static/js/main.4b099fe0.chunk.js"
+    "revision": "f1404f2d5f73b9597a93",
+    "url": "/React-crypto-ticker/static/js/main.f1404f2d.chunk.js"
   },
   {
     "revision": "6c10c71875cd471ecd52",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/React-crypto-ticker/static/media/nXzIRGpe5eg.e0fbb68a.jpg"
   },
   {
-    "revision": "0a62d8740d3c58b6cb348cfcec6257cb",
+    "revision": "b6a9dc7a50f71560da1b573e4846f18a",
     "url": "/React-crypto-ticker/index.html"
   }
 ];
