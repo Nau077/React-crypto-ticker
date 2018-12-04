@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Nau077.github.io/Crypro-ticker/",
+  "homepage": "https://Nau077.github.io/React-crypto-ticker/",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
