@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/React-crypto-ticker/precache-manifest.52596ccf9ad1fbf3fd5cf7a460ccc334.js"
+  "/React-crypto-ticker/precache-manifest.cb8090a2e5586a9979e45d29591676ac.js"
 );
 
 workbox.clientsClaim();
