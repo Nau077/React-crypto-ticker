@@ -104,7 +104,7 @@ class Tickers extends Component {
 
             {
                 id: "tron",
-                name: "tron",
+                name: "Tron",
                 symbol: "TRX",
                 price_usd: "1",
                 percent_change_1h: "0",
