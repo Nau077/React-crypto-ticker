@@ -92,15 +92,15 @@ class Tickers extends Component {
                 percent_change_7d: "0",
             },
 
-            {
-                id: "tron",
-                name: "TRON",
-                symbol: "TRX",
-                price_usd: "1",
-                percent_change_1h: "0",
-                percent_change_24h: "0",
-                percent_change_7d: "0",
-            },
+            // {
+            //     id: "tron",
+            //     name: "TRON",
+            //     symbol: "TRX",
+            //     price_usd: "1",
+            //     percent_change_1h: "0",
+            //     percent_change_24h: "0",
+            //     percent_change_7d: "0",
+            // },
 
             {
                 id: "tron",
