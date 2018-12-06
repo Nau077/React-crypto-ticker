@@ -9,7 +9,7 @@ class Tickers extends Component {
         // axios.defaults.headers.common['Authorization'] = "1438519b-6ab6-470f-86bd-6c95a61d0828";
      axios.get("https://api.coinmarketcap.com/v2/ticker/?limit=10")
         .then(response => {
-            var wanted = ["bitcoin", "ethereum","litecoin","eos","xrp"];
+            var wanted = ["bitcoin", "ethereum","litecoin","eos","xrp", "tron"];
             // var result = response.data.filter(currency => wanted.includes(currency.id));
             var wantedArr = this.normalizeData(wanted, response.data.data);
  
@@ -41,7 +41,7 @@ class Tickers extends Component {
     
     componentDidMount() {
         this.fetchCryptocurrencyData();
-        this.interval = setInterval(() => this.fetchCryptocurrencyData(), 1 *1000);
+        this.interval = setInterval(() => this.fetchCryptocurrencyData(), 1 *15000);
         
     }
     state = {
@@ -91,15 +91,17 @@ class Tickers extends Component {
                 percent_change_24h: "0",
                 percent_change_7d: "0",
             },
+
             {
-                id: "EOS",
-                name: "EOS",
-                symbol: "EOS",
+                id: "tron",
+                name: "TRON",
+                symbol: "TRON",
                 price_usd: "1",
                 percent_change_1h: "0",
                 percent_change_24h: "0",
                 percent_change_7d: "0",
             },
+
         ]
     }
 
