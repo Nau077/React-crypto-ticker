@@ -1,3 +1,6 @@
+Посмотреть крипто-тикер можно по ссылке: https://nau077.github.io/React-crypto-ticker/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
